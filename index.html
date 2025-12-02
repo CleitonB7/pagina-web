@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Minha Página Estruturada</title>
+
+    <!-- Estilos online básicos -->
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4F6D7A;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #DDDDDD;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section, article {
+            background: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #4F6D7A;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho da página -->
+    <header id="inicio">
+        <h1>Bem-vindo à Minha Página</h1>
+        <h2>Aprendendo HTML com Recursos Multimídia</h2>
+        <p>Este site foi desenvolvido como parte da atividade de prática HTML utilizando estrutura semântica.</p>
+    </header>
+
+    <!-- Menu de navegação -->
+    <nav aria-label="Menu principal">
+        <ul>
+            <li><a href="#artigo">Artigo</a></li>
+            <li><a href="#lista">Lista</a></li>
+            <li><a href="#midia">Mídia</a></li>
+            <li><a href="#inicio">Voltar ao topo</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <main>
+
+        <!-- Artigo -->
+        <article id="artigo">
+            <h2>Meu Primeiro Artigo</h2>
+            <p>Este é um artigo simples criado para demonstrar o uso da tag <code>&lt;article&gt;</code> em HTML.</p>
+            <p>Aqui podemos escrever qualquer texto explicativo, descritivo ou informativo.</p>
+        </article>
+
+        <!-- Lista -->
+        <section id="lista">
+            <h3>Itens Importantes</h3>
+            <ul>
+                <li>Primeiro item importante</li>
+                <li>Segundo item importante</li>
+                <li>Terceiro item importante</li>
+            </ul>
+        </section>
+
+        <!-- Seção Multimídia -->
+        <section id="midia">
+            <h3>Galeria Multimídia</h3>
+
+            <h4>Áudio</h4>
+            <audio controls>
+                <source src="audio/exemplo.mp3" type="audio/mp3">
+                Seu navegador não suporta áudio.
+            </audio>
+
+            <h4>Vídeo</h4>
+            <video width="360" controls>
+                <source src="video/exemplo.mp4" type="video/mp4">
+                Seu navegador não suporta vídeo.
+            </video>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2025 - Página desenvolvida para atividade prática de HTML.</p>
+    </footer>
+
+</body>
+</html>
